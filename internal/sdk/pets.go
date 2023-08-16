@@ -67,7 +67,7 @@ func (s *pets) CreatePets(ctx context.Context) (*operations.CreatePetsResponse, 
 		case utils.MatchContentType(contentType, `application/json`):
 			var out *shared.Error
 			if err := utils.UnmarshalJsonFromResponseBody(bytes.NewBuffer(rawBody), &out); err != nil {
-				return nil, err
+				return res, err
 			}
 
 			res.Error = out
@@ -125,7 +125,7 @@ func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest)
 		case utils.MatchContentType(contentType, `application/json`):
 			var out []shared.Pet
 			if err := utils.UnmarshalJsonFromResponseBody(bytes.NewBuffer(rawBody), &out); err != nil {
-				return nil, err
+				return res, err
 			}
 
 			res.Pets = out
@@ -135,7 +135,7 @@ func (s *pets) ListPets(ctx context.Context, request operations.ListPetsRequest)
 		case utils.MatchContentType(contentType, `application/json`):
 			var out *shared.Error
 			if err := utils.UnmarshalJsonFromResponseBody(bytes.NewBuffer(rawBody), &out); err != nil {
-				return nil, err
+				return res, err
 			}
 
 			res.Error = out
@@ -190,7 +190,7 @@ func (s *pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRe
 		case utils.MatchContentType(contentType, `application/json`):
 			var out *shared.Pet
 			if err := utils.UnmarshalJsonFromResponseBody(bytes.NewBuffer(rawBody), &out); err != nil {
-				return nil, err
+				return res, err
 			}
 
 			res.Pet = out
@@ -200,7 +200,7 @@ func (s *pets) ShowPetByID(ctx context.Context, request operations.ShowPetByIDRe
 		case utils.MatchContentType(contentType, `application/json`):
 			var out *shared.Error
 			if err := utils.UnmarshalJsonFromResponseBody(bytes.NewBuffer(rawBody), &out); err != nil {
-				return nil, err
+				return res, err
 			}
 
 			res.Error = out
