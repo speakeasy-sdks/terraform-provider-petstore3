@@ -108,8 +108,8 @@ func New(opts ...SDKOption) *Petstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "terraform",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "1.6.3",
-			GenVersion:        "2.86.10",
+			SDKVersion:        "1.6.4",
+			GenVersion:        "2.87.1",
 		},
 	}
 	for _, opt := range opts {

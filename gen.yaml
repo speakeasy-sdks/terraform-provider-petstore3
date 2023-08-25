@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.74.8
-  generationVersion: 2.86.10
+  speakeasyVersion: 1.74.11
+  generationVersion: 2.87.1
 generation:
   comments:
     disableComments: false
@@ -14,9 +14,9 @@ generation:
   tagNamespacingDisabled: false
 features:
   terraform:
-    core: 2.83.3
+    core: 2.83.4
     globalServerURLs: 2.82.0
 terraform:
-  version: 1.6.3
+  version: 1.6.4
   author: testing
   packageName: petstore
