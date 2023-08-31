@@ -55,3 +55,4 @@ internal/sdk/pkg/models/shared/pet.go
 USAGE.md
 internal/provider/provider.go
 examples/provider/provider.tf
+.gitattributes
