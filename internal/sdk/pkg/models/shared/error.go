@@ -2,7 +2,6 @@
 
 package shared
 
-// Error - unexpected error
 type Error struct {
 	Code    int    `json:"code"`
 	Message string `json:"message"`

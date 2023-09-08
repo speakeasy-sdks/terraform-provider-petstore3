@@ -2,7 +2,6 @@
 
 package shared
 
-// Pet - Expected response to a valid request
 type Pet struct {
 	ID   int64   `json:"id"`
 	Name string  `json:"name"`
