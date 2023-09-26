@@ -13,12 +13,15 @@ type ListPetsRequest struct {
 }
 
 type ListPetsResponse struct {
+	// HTTP response content type for this operation
 	ContentType string
 	// unexpected error
 	Error   *shared.Error
 	Headers map[string][]string
 	// A paged array of pets
-	Pets        []shared.Pet
-	StatusCode  int
+	Pets []shared.Pet
+	// HTTP response status code for this operation
+	StatusCode int
+	// Raw HTTP response; suitable for custom response parsing
 	RawResponse *http.Response
 }
