@@ -10,7 +10,7 @@ terraform {
   required_providers {
     petstore = {
       source  = "testing/petstore"
-      version = "1.11.0"
+      version = "1.11.1"
     }
   }
 }
@@ -45,8 +45,6 @@ TF_REATTACH_PROVIDERS=... terraform apply
 
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
