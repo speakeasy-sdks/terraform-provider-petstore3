@@ -109,9 +109,9 @@ func New(opts ...SDKOption) *Petstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "terraform",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "1.13.1",
-			GenVersion:        "2.143.2",
-			UserAgent:         "speakeasy-sdk/terraform 1.13.1 2.143.2 1.0.0 petstore",
+			SDKVersion:        "1.14.0",
+			GenVersion:        "2.144.7",
+			UserAgent:         "speakeasy-sdk/terraform 1.14.0 2.144.7 1.0.0 petstore",
 		},
 	}
 	for _, opt := range opts {

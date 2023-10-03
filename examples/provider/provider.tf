@@ -2,7 +2,7 @@ terraform {
   required_providers {
     petstore = {
       source  = "testing/petstore"
-      version = "1.13.1"
+      version = "1.14.0"
     }
   }
 }
