@@ -6,3 +6,17 @@ type Error struct {
 	Code    int    `json:"code"`
 	Message string `json:"message"`
 }
+
+func (o *Error) GetCode() int {
+	if o == nil {
+		return 0
+	}
+	return o.Code
+}
+
+func (o *Error) GetMessage() string {
+	if o == nil {
+		return ""
+	}
+	return o.Message
+}

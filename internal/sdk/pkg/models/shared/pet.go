@@ -7,3 +7,24 @@ type Pet struct {
 	Name string  `json:"name"`
 	Tag  *string `json:"tag,omitempty"`
 }
+
+func (o *Pet) GetID() int64 {
+	if o == nil {
+		return 0
+	}
+	return o.ID
+}
+
+func (o *Pet) GetName() string {
+	if o == nil {
+		return ""
+	}
+	return o.Name
+}
+
+func (o *Pet) GetTag() *string {
+	if o == nil {
+		return nil
+	}
+	return o.Tag
+}
