@@ -5,7 +5,7 @@ package sdk
 import (
 	"fmt"
 	"net/http"
-	"petstore/internal/sdk/pkg/utils"
+	"petstore/v2/internal/sdk/pkg/utils"
 	"time"
 )
 
@@ -60,7 +60,7 @@ func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
 }
 
 type Petstore struct {
-	Pets *pets
+	Pets *Pets
 
 	sdkConfiguration sdkConfiguration
 }
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *Petstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "1.15.0",
-			GenVersion:        "2.173.0",
-			UserAgent:         "speakeasy-sdk/go 1.15.0 2.173.0 1.0.0 petstore",
+			SDKVersion:        "2.0.0",
+			GenVersion:        "2.181.1",
+			UserAgent:         "speakeasy-sdk/go 2.0.0 2.181.1 1.0.0 petstore",
 		},
 	}
 	for _, opt := range opts {

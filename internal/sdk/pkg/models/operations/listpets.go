@@ -4,7 +4,7 @@ package operations
 
 import (
 	"net/http"
-	"petstore/internal/sdk/pkg/models/shared"
+	"petstore/v2/internal/sdk/pkg/models/shared"
 )
 
 type ListPetsRequest struct {

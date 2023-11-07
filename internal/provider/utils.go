@@ -13,7 +13,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/types/basetypes"
 	"net/http"
 	"net/http/httputil"
-	tfReflect "petstore/internal/provider/reflect"
+	tfReflect "petstore/v2/internal/provider/reflect"
 	"reflect"
 )
 

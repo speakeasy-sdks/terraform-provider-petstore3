@@ -4,7 +4,7 @@ package provider
 
 import (
 	"context"
-	"petstore/internal/sdk"
+	"petstore/v2/internal/sdk"
 
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
