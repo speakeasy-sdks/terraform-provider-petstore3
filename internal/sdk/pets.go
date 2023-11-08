@@ -6,12 +6,12 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/testing/terraform-provider-petstore/v2/internal/sdk/pkg/models/operations"
+	"github.com/testing/terraform-provider-petstore/v2/internal/sdk/pkg/models/sdkerrors"
+	"github.com/testing/terraform-provider-petstore/v2/internal/sdk/pkg/models/shared"
+	"github.com/testing/terraform-provider-petstore/v2/internal/sdk/pkg/utils"
 	"io"
 	"net/http"
-	"petstore/v2/internal/sdk/pkg/models/operations"
-	"petstore/v2/internal/sdk/pkg/models/sdkerrors"
-	"petstore/v2/internal/sdk/pkg/models/shared"
-	"petstore/v2/internal/sdk/pkg/utils"
 	"strings"
 )
 

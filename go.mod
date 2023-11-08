@@ -1,4 +1,4 @@
-module petstore/v2
+module github.com/testing/terraform-provider-petstore/v2
 
 go 1.18
 
