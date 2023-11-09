@@ -2,18 +2,18 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.115.0
-  generationVersion: 2.183.0
+  speakeasyVersion: 1.116.0
+  generationVersion: 2.185.0
 generation:
   comments: {}
   sdkClassName: petstore
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-petstore3.git
 features:
   terraform:
-    core: 3.3.0
+    core: 3.3.1
     globalServerURLs: 2.82.0
 terraform:
-  version: 2.1.0
+  version: 2.1.1
   author: testing
   imports:
     option: openapi
@@ -23,6 +23,8 @@ terraform:
       operations: operations
       shared: shared
       webhooks: webhooks
+  inputModelSuffix: input
+  outputModelSuffix: output
   packageName: petstore
   published: true
   repoSubDirectory: .
