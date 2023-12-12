@@ -10,7 +10,7 @@ terraform {
   required_providers {
     petstore = {
       source  = "testing/petstore"
-      version = "2.3.1"
+      version = "2.4.0"
     }
   }
 }
@@ -44,6 +44,8 @@ TF_REATTACH_PROVIDERS=... terraform apply
 
 <!-- Start Available Resources and Operations [operations] -->
 ## Available Resources and Operations
+
+
 <!-- End Available Resources and Operations [operations] -->
 
 

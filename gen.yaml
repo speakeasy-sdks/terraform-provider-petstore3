@@ -2,8 +2,8 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.123.0
-  generationVersion: 2.202.2
+  speakeasyVersion: 1.126.0
+  generationVersion: 2.213.3
 generation:
   comments: {}
   sdkClassName: petstore
@@ -12,10 +12,10 @@ generation:
     optionalPropertyRendering: withExample
 features:
   terraform:
-    core: 3.5.1
+    core: 3.6.0
     globalServerURLs: 2.82.1
 terraform:
-  version: 2.3.1
+  version: 2.4.0
   author: testing
   imports:
     option: openapi
