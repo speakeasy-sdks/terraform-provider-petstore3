@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: d4fd37d2-9d93-4532-95b6-53948d3c6a8e
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.230.1
-  releaseVersion: 2.5.1
-  configChecksum: 4d47e50370a5901451a138a9b2cfdaae
+  generationVersion: 2.230.3
+  releaseVersion: 2.5.2
+  configChecksum: bb49fd5d40e2a21d22b2b948bdd2db5d
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-petstore3.git
   repoSubDirectory: .
   published: true
