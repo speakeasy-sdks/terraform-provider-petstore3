@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/testing/terraform-provider-petstore/v2/internal/sdk"
+	"github.com/testing/terraform-provider-petstore/v3/internal/sdk"
 )
 
 var _ provider.Provider = &PetstoreProvider{}

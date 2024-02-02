@@ -4,15 +4,15 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.237.2
-  releaseVersion: 2.5.4
-  configChecksum: f3966f808f7c89c4e81aa67aa6fa3d66
+  generationVersion: 2.248.1
+  releaseVersion: 3.0.0
+  configChecksum: ee46c0feebc2a5586c0a60b99103cf79
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-petstore3.git
   repoSubDirectory: .
   published: true
 features:
   terraform:
-    core: 3.8.4
+    core: 3.9.3
     globalServerURLs: 2.82.1
 generatedFiles:
   - internal/sdk/pets.go

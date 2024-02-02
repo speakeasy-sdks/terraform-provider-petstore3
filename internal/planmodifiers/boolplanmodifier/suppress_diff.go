@@ -4,7 +4,7 @@ package boolplanmodifier
 
 import (
 	"context"
-	"github.com/testing/terraform-provider-petstore/v2/internal/planmodifiers/utils"
+	"github.com/testing/terraform-provider-petstore/v3/internal/planmodifiers/utils"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 )

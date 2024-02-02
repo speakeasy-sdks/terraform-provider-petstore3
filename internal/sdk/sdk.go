@@ -4,7 +4,7 @@ package sdk
 
 import (
 	"fmt"
-	"github.com/testing/terraform-provider-petstore/v2/internal/sdk/pkg/utils"
+	"github.com/testing/terraform-provider-petstore/v3/internal/sdk/pkg/utils"
 	"net/http"
 	"time"
 )
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *Petstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "2.5.4",
-			GenVersion:        "2.237.2",
-			UserAgent:         "speakeasy-sdk/go 2.5.4 2.237.2 1.0.0 petstore",
+			SDKVersion:        "3.0.0",
+			GenVersion:        "2.248.1",
+			UserAgent:         "speakeasy-sdk/go 3.0.0 2.248.1 1.0.0 petstore",
 		},
 	}
 	for _, opt := range opts {
