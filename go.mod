@@ -1,4 +1,4 @@
-module github.com/testing/terraform-provider-petstore/v3
+module github.com/testing/terraform-provider-petstore/v4
 
 go 1.20
 
