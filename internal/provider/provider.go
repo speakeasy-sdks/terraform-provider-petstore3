@@ -10,6 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/testing/terraform-provider-petstore/v4/internal/sdk"
+	"net/http"
 )
 
 var _ provider.Provider = &PetstoreProvider{}
@@ -60,6 +61,7 @@ func (p *PetstoreProvider) Configure(ctx context.Context, req provider.Configure
 
 	opts := []sdk.SDKOption{
 		sdk.WithServerURL(ServerURL),
+		sdk.WithClient(http.DefaultClient),
 	}
 	client := sdk.New(opts...)
 

@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *Petstore {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "4.0.0",
-			GenVersion:        "2.250.12",
-			UserAgent:         "speakeasy-sdk/go 4.0.0 2.250.12 1.0.0 petstore",
+			SDKVersion:        "4.1.0",
+			GenVersion:        "2.280.6",
+			UserAgent:         "speakeasy-sdk/go 4.1.0 2.280.6 1.0.0 petstore",
 		},
 	}
 	for _, opt := range opts {
